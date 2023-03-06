@@ -2,11 +2,11 @@
 ![](LightbuldforHomepage.jpg)
 
 ## INTRODUCTION
-This is a **Power BI** project on **Analysis and Visualization on Energy Consumed in Brazil**. The derived insights is to answer crusial questions and help make data driven decisions.
+This is a **Power BI** project on **_Analysis and Visualization on Energy Consumed in Brazil_**. The derived insights is to answer crucial questions and help make data driven decisions.
 
 _**Disclaimer**_: All the datasets and reports are fictitious and do not represent any person, institution, country or person, but a dummy dataset to demostrate my **skills** and **capabilities** on Power BI. 😃
 
-## PROBLEM STATEMENT
+## PROBLEM STATEMENTS
 To analyse and visualise
 1. Find the total energy consumed 
     - For each year
@@ -14,14 +14,16 @@ To analyse and visualise
 
 2. Find the lowest energy consumed in a month by year and the highest energy consumed in a month by year
 
-2. Find the lowest energy consumed in a day, in a year and highest energy consumed in a day, in a year.  
+2. Find the lowest energy consumed in a day, in a year, time and highest energy consumed in a day, in a year and time.  
+3. Determine the Off-peak  (when demand for power is at its lowest) and Peak hours  (when demand for power is at its highest)
+
 
 ## DATA QUAITY REPORT
 Data quality reporting is the process I used in removing and reorganising all compromising data. 
 ![](DataQualityReport.JPG)
 
 ## DATA SOURCING 
-The data was collect from Kaggle.com and it contains 201,312 and 2 fields
+The data was collected from Kaggle.com and it contains 201,312 and 2 fields
 
 ![](DatasetPQ.JPG)   
 
@@ -29,7 +31,7 @@ The data was collect from Kaggle.com and it contains 201,312 and 2 fields
 
 ## DATA TRANSFORMATION
 Data cleaning and transformation was carried out using **Power BI** Query. 
-1. _Data in the table are not from the same period; only a month data for 2023 was recorded in the dataset_ **###Cleaning** the one (1) month record for 2023 was removed in other not to skew the data. 
+1. _Data in the table are not from the same period; only a month data for 2023 was recorded in the dataset_ **Cleaning** the one (1) month record for 2023 was removed in other not to skew the data. 
 2. _The Index Column was not in the appropriate data type **Cleaning*** The Index data type was changed to date and Hourly, Number. 
 3. _Inconsist decimal place_ **Cleaning** all values was rounded up to an whole number. 
 4. From the index column, which contains time and date, time was extracted to a seperate column **_Time_** so to analyze the data based on time 
@@ -50,9 +52,11 @@ Just as they say, the off-peak hours (when demand for power is at its lowest) is
 [Read more](https://www.reuters.com/article/us-brazil-electricity-idUSBRE90818N20130109)
 3. The Least energy consumed in months in 2001 was in June, July and it rose up in August and decline back due to the drought and the increase was in March. 
 
-Drill through funtion is used to get month insight in the table.
+Drill through funtion is used to get month insigh in the table.
 
-#_Overview of the Dashboard 
+![](Drillthrough.JPG)
+
+*_Overview of the Dashboard*
 The dashboard can be filtered using slicer to show
 - Total energy demand in a year
 - Total energy demand in a month
@@ -62,3 +66,9 @@ The dashboard can be filtered using slicer to show
 - Peak hour (when demand for power is at its highest)
 - Drill through
 
+##CONCLUSION
+All problem statements has been answered with more insight as to why there was a decline in 2001 the drill through was used to get more insight into the datasets as to when there was lowest energy in which month, day and time. This perticular reports has helped into critical thinking as to what a required dataset can do and what do I want to achieve with a dataset and whether I can achieve more with it. 
+
+
+##THANK YOU 
+![](Thankyou.png)
