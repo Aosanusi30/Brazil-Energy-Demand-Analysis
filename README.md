@@ -43,6 +43,8 @@ No modeling was required since its just a table
 ## ANALYSIS AND VISUALIZATION
 ![](Energydemandproject.JPG)
 
+[Link to Power BI Service](https://app.powerbi.com/reportEmbed?reportId=fca197e8-a9b7-432d-8c79-010863c7c437&autoAuth=true&ctid=bc58bbe3-3a3d-4b51-888f-66bee1a0ff6d)
+
 
 **From the analysis carried out**
 Just as they say, the off-peak hours (when demand for power is at its lowest) is in the night between 10pm to 8am. This analysis proved that saying. During the analysis of this project, in no time was the off-peak hours greater than the peak hours. The peak hours is from 9am and rose up. 
@@ -70,5 +72,5 @@ The dashboard can be filtered using slicer to show
 All problem statements has been answered with more insight as to why there was a decline in 2001 the drill through was used to get more insight into the datasets as to when there was lowest energy in which month, day and time. This perticular reports has helped into critical thinking as to what a required dataset can do and what do I want to achieve with a dataset and whether I can achieve more with it. 
 
 
-##THANK YOU 
+## THANK YOU 
 ![](Thankyou.png)
