@@ -23,7 +23,7 @@ Data quality reporting is the process I used in removing and reorganising all co
 ## DATA SOURCING 
 The data was collect from Kaggle.com and it contains 201,312 and 2 fields
 
-![](Previewofthedata.JPG)    |![](Previewofthedata2.JPG)   |![](Previewofthedata3.JPG)   |![](Previewofthedata4.JPG)|
+![](DatasetPQ.JPG)   
 
 [Click here for the dataset](https://www.kaggle.com/datasets/arusouza/23-years-of-hourly-eletric-energy-demand-brazil)
 
@@ -32,11 +32,15 @@ Data cleaning and transformation was carried out using **Power BI** Query.
 1. _Data in the table are not from the same period; only a month data for 2023 was recorded in the dataset_ **###Cleaning** the one (1) month record for 2023 was removed in other not to skew the data. 
 2. _The Index Column was not in the appropriate data type **Cleaning*** The Index data type was changed to date and Hourly, Number. 
 3. _Inconsist decimal place_ **Cleaning** all values was rounded up to an whole number. 
+4. From the index column, which contains time and date, time was extracted to a seperate column **_Time_** so to analyze the data based on time 
 
 
 ## DATA MODELING 
 No modeling was required since its just a table 
 
 ## ANALYSIS AND VISUALIZATION
-![](Project.JPG)   
+![](Energydemandproject.JPG)
 
+Just as they say, the off-peak hours (when demand for power is at its lowest) is in the night between 10pm to 8am. This analysis proved that saying. During the analysis of this project, in no time was the off-peak hours greater than the peak hours. The peak hours is from 9am and rose up. 
+
+Off-peak hours                                                  |                               Peak hours 
