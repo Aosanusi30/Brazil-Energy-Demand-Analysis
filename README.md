@@ -41,6 +41,24 @@ No modeling was required since its just a table
 ## ANALYSIS AND VISUALIZATION
 ![](Energydemandproject.JPG)
 
+
+**From the analysis carried out**
 Just as they say, the off-peak hours (when demand for power is at its lowest) is in the night between 10pm to 8am. This analysis proved that saying. During the analysis of this project, in no time was the off-peak hours greater than the peak hours. The peak hours is from 9am and rose up. 
 
-Off-peak hours                                                  |                               Peak hours 
+1. The total energy consumed from 2000 - 2022 is 11billon watts or 110MW 
+2. The least enery consumed from year 2000 - 2022 was in 2001 at 330MW and the Highest energy consumed was in 2022 at 603MW. There was a decline of in 2001 and it rose back up rapidly and efficiency. Further reseacher shows that it was because of a drought that reduced the water level at the hydroelectric dam. 
+[Read more](https://www.reuters.com/article/us-brazil-electricity-idUSBRE90818N20130109)
+3. The Least energy consumed in months in 2001 was in June, July and it rose up in August and decline back due to the drought and the increase was in March. 
+
+Drill through funtion is used to get month insight in the table.
+
+#_Overview of the Dashboard 
+The dashboard can be filtered using slicer to show
+- Total energy demand in a year
+- Total energy demand in a month
+- Highest energy used in a month and which day in that particular month
+- Lower energy used in a month and which day in that particular month
+- Off-peak hour (when demand for power is at its lowest)
+- Peak hour (when demand for power is at its highest)
+- Drill through
+
